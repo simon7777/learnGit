@@ -13,6 +13,10 @@ class FriendshipsController < ApplicationController
       redirect_to :back
     end
   end
+  
+  def hello
+    Something to do here but I dont know what
+  end
 
   def accept
     friend = Friendship.find_by_friend1_and_friend2(current_user.id, params[:friend2])
