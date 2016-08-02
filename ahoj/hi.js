@@ -15,7 +15,7 @@ class FriendshipsController < ApplicationController
   end
   
   def hello
-    Something to do here but I dont know what
+    I know already
   end
 
   def accept
