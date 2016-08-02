@@ -17,6 +17,10 @@ class FriendshipsController < ApplicationController
   def hello
     I know already
   end
+  
+  def second
+    asdfasdf
+  end
 
   def accept
     friend = Friendship.find_by_friend1_and_friend2(current_user.id, params[:friend2])
